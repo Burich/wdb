@@ -1,1 +1,2 @@
-# wdb
+# Description
+Few little training projects

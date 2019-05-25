@@ -12,28 +12,26 @@
   <form>
     <label for="first-name">First Name:</label>
     <input id="first-name" name="first-name" type="text" placeholder="John" required>
-
     <label for="last-name">Last Name:</label>
     <input id="last-name" name="last-name" type="text" placeholder="Smith" required>
-    <br>
 
+  <div>
     <label for="male">Male</label>
     <input type="radio" name="gender" id="male" value="male" required>
-
     <label for="female">Female</label>
     <input type="radio" name="gender" id="female" value="female" required>
-
     <label for="other">Other</label>
     <input type="radio" name="gender" id="other" value="other" required>
-    <br>
-
+  </div>
+  
+  <div>
     <label for="email">Email:</label>
     <input type="email" name="email" id="email" placeholder="Your email" required>
-
     <label for="password">Password:</label>
     <input type="password" name="password" id="password" required minlength="5" maxlength="10">
-    <br>
-
+  </div>
+  
+  <div>
     Birthday:
     <select name="month" id="month" required>
       <option value="" selected disabled>Month</option>
@@ -55,11 +53,11 @@
       <option value="1986">1986</option>
       <option value="...">...</option>
     </select>
-    <br>
-
+  </div>
+  <div>
     <label for="agree">I agee to the term and conditions</label>
     <input type="checkbox" id="agree-check" required>
-    <br>
+  </div>
 
     <input type="submit">
   </form>

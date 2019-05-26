@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-spacing: 0px;    
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.left, .hmid {
+    border-right: 1px solid black;
+}
+
+.top, .vmid {
+    border-bottom: 1px solid black;
+}
